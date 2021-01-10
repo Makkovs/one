@@ -1,14 +1,46 @@
 .logo{
-    position: fixed;
-    top: 50px;
-    left: 200px;
+    margin-top: 50px;
+    margin-bottom: 40px; 
+    user-select: none;
 }
 
 .menu{
-    position: fixed;
-    width:950px;
-    height:40px;
-    background:rgb(45, 45, 48);
-    top: 120px;
-    left: 200px;
+    background: linear-gradient(to top, #2e2d2c, #77726a);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
 }
+
+.shop{
+    margin-left: 144px;
+    margin-top: -20px;
+}
+
+.info{
+    margin-left: 280px;
+    margin-top: -20px;
+}
+
+.contacts{
+    margin-left: 410px;
+    margin-top: -20px;
+}
+
+.content{
+    margin: 0 auto;
+    width:950px;
+}
+
+.categories{
+    height: 240px;
+    width: 240px;
+    border: 1px solid #c8c8c8;
+    margin-top: 40px;
+}
+
+.categories-text{
+    font-size: 10pt;
+    margin: 20px;
+}
+
